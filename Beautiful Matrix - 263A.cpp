@@ -1,7 +1,7 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 int matrix[5][5], i, a, b, c, j;
-main(){
+int main(){
    for(i=0; i<5; i++){
       for(j=0; j<5; j++)
          cin>>matrix[i][j];
@@ -41,4 +41,3 @@ main(){
    }
    cout<<c;
 }
- 
